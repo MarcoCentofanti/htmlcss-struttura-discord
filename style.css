@@ -19,13 +19,15 @@
 .bg-nero{   background-color: black;}
 
 
-
-
-
-
 .header-background{
   height: 55px;
   padding-top: 10px;
+}
+
+.d-flex-center-xy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -35,7 +37,6 @@
   
   width: 70%;
   /* height: 30px; */
-  /* background-color: black; */
   justify-content: space-between;
   align-items: center;
   
@@ -63,9 +64,6 @@ padding-left: 5px;
 }
 
 .block-A{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 260px;
 }
 
@@ -80,10 +78,7 @@ padding-left: 5px;
 }
 
 .block-B{
-  display: flex;
   height: 300px;
-  justify-content: center;
-  align-items: center;
 }
 
 .left-blue-element{
@@ -99,10 +94,7 @@ padding-left: 5px;
 
 
 .block-C{
-  display: flex;
   height: 300px;
-  justify-content: center;
-  align-items: center;
 }
 
 .left-pink-element{
@@ -117,10 +109,7 @@ padding-left: 5px;
 }
 
 .giant-box{
-display: flex;
   height: 500px;
-  justify-content: center;
-  align-items: center;
 }
 
 .green-box{
@@ -131,11 +120,7 @@ display: flex;
 
 .block-multiple{
   padding-bottom: 20px;
-  display: flex;
   height: 280px;
-  /* background-color: black; */
-  justify-content: center;
-  align-items: center;
 }
 
 .red-block{
